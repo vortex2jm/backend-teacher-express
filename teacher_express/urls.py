@@ -4,5 +4,5 @@ from teacher.views import TeacherView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('findAll', TeacherView.as_view())
+    path('teachers', TeacherView.as_view())
 ]

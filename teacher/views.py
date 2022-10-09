@@ -1,5 +1,4 @@
 from tkinter.messagebox import NO
-from unicodedata import name
 from rest_framework.views import APIView 
 from rest_framework.views import Response
 from teacher.models import Teacher
